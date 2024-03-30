@@ -1,0 +1,6 @@
+age,gender,education,employment_status,annual_income,credit_score,loan_approval
+35,Male,Graduate,Employed,50000,700,Yes
+45,Female,Postgraduate,Self-employed,75000,720,Yes
+28,Male,High School,Unemployed,0,580,No
+52,Female,Graduate,Retired,40000,680,Yes
+...

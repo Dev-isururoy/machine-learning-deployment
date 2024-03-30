@@ -1,0 +1,8 @@
+import joblib
+
+# Load the trained model from the .pkl file
+model = joblib.load('models/trained_model.pkl')
+
+# Now you can use the loaded model to make predictions on new data
+# For example:
+# predictions = model.predict(new_data)

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Model Deployment</title>
+    <link rel="stylesheet" href="static/css/style.css"> 
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Machine Learning Model Deployment App!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Input Form</h2>
+            <!-- input form for providing data to the model -->
+            <form action="/predict" method="POST">
+                <label for="feature1">Feature 1:</label>
+                <input type="text" id="feature1" name="feature1" required><br><br>
+
+                <label for="feature2">Feature 2:</label>
+                <input type="text" id="feature2" name="feature2" required><br><br>
+
+                <!-- Add more input fields  -->
+
+                <button type="submit">Predict</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Model Output</h2>
+            <!-- Display area for the model output or prediction result -->
+            <div id="prediction-result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Machine Learning Model Deployment App</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>

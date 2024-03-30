@@ -1,0 +1,6 @@
+age,gender,education,employment_status,annual_income,credit_score
+30,Female,Graduate,Employed,60000,680
+48,Male,Postgraduate,Self-employed,85000,740
+38,Female,High School,Employed,45000,620
+25,Male,Graduate,Unemployed,0,550
+...
